@@ -4,3 +4,13 @@ The project uses:
 - Raspberry pi 
 - a DS18B20 temp controller  
 - 2 Fostek SSRs to control the boiler the brew pump.
+
+Features:
+- PID with anti-windup; seems to be stable at +/- 0.5c
+- able to heat boiler while brew switch is on to maintain water temp during brew
+- switchable logging to CSV
+- switchable verbose logging to console
+
+Limitations:
+- no steam switch yet
+- no user interface
