@@ -1,4 +1,4 @@
-# Gaggia-PID
+# Gaggia-Classic-PID-DS18B20
 A simple PID controller in python3 to control the temperature of a Gaggia Classic coffee machine.
 The project uses:
 - Raspberry pi 
@@ -6,12 +6,12 @@ The project uses:
 - 1 Fostek 25 Amp SSRs to control the boiler
 - 1 Fostek 25 Amp SSRs to control the boiler the brew pump.
 
-Features:
+# Features:
 - PID with anti-windup; seems to be stable at +/- 0.5c
 - able to heat boiler while brew switch is on to maintain water temp during brew
 - switchable logging to CSV
 - switchable verbose logging to console
 
-Limitations:
+# Limitations:
 - no steam switch yet
 - no user interface
