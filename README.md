@@ -3,7 +3,8 @@ A simple PID controller in python3 to control the temperature of a Gaggia Classi
 The project uses:
 - Raspberry pi 
 - a DS18B20 temp controller  
-- 2 Fostek SSRs to control the boiler the brew pump.
+- 1 Fostek 25 Amp SSRs to control the boiler
+- 1 Fostek 25 Amp SSRs to control the boiler the brew pump.
 
 Features:
 - PID with anti-windup; seems to be stable at +/- 0.5c
